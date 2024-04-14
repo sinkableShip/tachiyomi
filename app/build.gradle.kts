@@ -33,7 +33,7 @@ android {
         buildConfigField("boolean", "PREVIEW", "false")
 
         // Please disable ACRA or use your own instance in forked versions of the project
-        buildConfigField("String", "ACRA_URI", "\"https://tachiyomi.kanade.eu/crash_report\"")
+        buildConfigField("String", "ACRA_URI", "\"127.0.0.1\"")
 
         ndk {
             abiFilters += SUPPORTED_ABIS
